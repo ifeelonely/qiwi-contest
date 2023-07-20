@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 500px;
+}
+
+.info-block {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  width: 100%;
+
+  background-color: aqua;
+  border: none;
+  border-radius: .5rem;
+}
+
+.currency-select {
+  width: 100%;
+}
+
+span {
+  display: block;
+}
+
+select {
+  background-color: aqua;
+  border: none;
+  outline: none;
+  padding: .5rem;
+  border-radius:.5rem ;
+}
+
+select:hover {
+  cursor: pointer;
+}
